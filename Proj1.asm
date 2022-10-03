@@ -1,9 +1,9 @@
-#Aaron
+
 
 .data
 difference: .asciiz "Array[C]: "			#store string to difference
-arrayA: .word 10, 3, 7, 1, 12, 20, 16, 18, 11, 17	#Array1 to store the first list
-arrayB: .word 3, 4, 2, 8, 4, 1, 7, 9, 10, 20		#Array2 to store the second list
+arrayA: .word 10, 5, 6, 15, 17, 19, 25, 30, 12, 56	#Array1 to store the first list
+arrayB: .word 4, 15, 16, 5, 7, 9, 15, 10, 22, 6		#Array2 to store the second list
 arrayC: .space 10					#ArraySum to store the sum of 								 Array1 and Array2
 
 .text
